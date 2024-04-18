@@ -1,0 +1,18 @@
+Difficult: 
+1. Given an array of integers, write a Java program to find the maximum sum of two integers in the array.
+
+For example in an array like this:
+[2, 3, 1, 5, 4]
+The maximum sum would be 5 + 4
+
+Very difficult
+2. Fill the array with human names.
+Check how many different names are in the array
+["Oskars", "Anna", "Andris"]
+Result: 3
+
+["Andris", "Oskars", "Elizabeth", "Oskars",  "Elizabeth"]
+Result: 3
+
+["Oskars"] - An empty array
+Result: 1
