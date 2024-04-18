@@ -1,0 +1,14 @@
+Easy -> Initialize a string array and try to input and output data
+ We want to define an array city names.
+ We want to add values to it (could be through the scanner, or just writing 
+
+arr[0] = "Riga";
+
+
+With scanner
+arr[0] = scanner.nextLine();
+
+
+And then output the values out of array
+
+Challenging -> Find the largest number in the array and find the smallest number in the array
