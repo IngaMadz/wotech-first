@@ -1,0 +1,5 @@
+if(bombRow != size - 1){
+            grid[bombRow + 1][bombColumn] = 1; // bottom middle
+            grid[bombRow + 1][bombColumn - 1] = 1; //bottom left
+            grid[bombRow + 1][bombColumn + 1] = 1; //bottom right
+        }
