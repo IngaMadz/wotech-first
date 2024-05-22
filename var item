@@ -1,0 +1,3 @@
+var item = scanner.nextLine(); //Asks the user for input
+        shopsItems.add(item); // adds the item to the shopsItems arrayList
+        System.out.println(item + " has been added to the store"); // Provide 
