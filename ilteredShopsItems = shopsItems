@@ -1,0 +1,4 @@
+var filteredShopsItems = shopsItems
+            .stream()
+            .filter(item -> item.contains("table"))
+            .collect(Collectors.toList());
