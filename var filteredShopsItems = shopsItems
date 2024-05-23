@@ -1,0 +1,8 @@
+var filteredShopsItems = shopsItems
+      .stream()
+      // in between here we can do actions. There a lot of different actions. E.g. .map, .filter, .reduce, .collect, .forEach, .sorted, .skip, .
+      .skip(3) // skips the first 3 items
+      .limit(2) // it limits the number of items that are going to be printed. So it will only print the first 2 items.
+      .foreach(x -> System.out.println("TEST" + x))
+      .filter(item -> item.toLowerCase().contains("table")) //acts like a search field. If item exits, it will be added to the new list. (we also added the function to make it lower case)
+      .collect(Collectors.toList());
